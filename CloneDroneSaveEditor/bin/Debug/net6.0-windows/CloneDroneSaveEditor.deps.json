@@ -9,7 +9,8 @@
       "CloneDroneSaveEditor/1.0.0": {
         "dependencies": {
           "Newtonsoft.Json": "13.0.3",
-          "Assembly-CSharp": "0.0.0.0"
+          "Assembly-CSharp": "0.0.0.0",
+          "UnityEngine.CoreModule": "0.0.0.0"
         },
         "runtime": {
           "CloneDroneSaveEditor.dll": {}
@@ -55,19 +56,19 @@
           }
         }
       },
-      "UnityEngine.AnimationModule/0.0.0.0": {
-        "runtime": {
-          "UnityEngine.AnimationModule.dll": {
-            "assemblyVersion": "0.0.0.0",
-            "fileVersion": "0.0.0.0"
-          }
-        }
-      },
       "UnityEngine.UI/1.0.0.0": {
         "runtime": {
           "UnityEngine.UI.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "UnityEngine.AnimationModule/0.0.0.0": {
+        "runtime": {
+          "UnityEngine.AnimationModule.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
           }
         }
       },
@@ -111,14 +112,6 @@
           }
         }
       },
-      "UnityEngine.UnityWebRequestWWWModule/0.0.0.0": {
-        "runtime": {
-          "UnityEngine.UnityWebRequestWWWModule.dll": {
-            "assemblyVersion": "0.0.0.0",
-            "fileVersion": "0.0.0.0"
-          }
-        }
-      },
       "UnityEngine.TextRenderingModule/0.0.0.0": {
         "runtime": {
           "UnityEngine.TextRenderingModule.dll": {
@@ -138,6 +131,14 @@
       "Assembly-CSharp-firstpass/0.0.0.0": {
         "runtime": {
           "Assembly-CSharp-firstpass.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "UnityEngine.UnityWebRequestWWWModule/0.0.0.0": {
+        "runtime": {
+          "UnityEngine.UnityWebRequestWWWModule.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           }
@@ -204,14 +205,6 @@
           "udpkit.common.dll": {
             "assemblyVersion": "1.0.0.30342",
             "fileVersion": "1.0.0.30342"
-          }
-        }
-      },
-      "Klattersynth/1.0.0.0": {
-        "runtime": {
-          "Klattersynth.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
           }
         }
       },
@@ -287,6 +280,14 @@
           }
         }
       },
+      "Klattersynth/1.0.0.0": {
+        "runtime": {
+          "Klattersynth.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "UnityEngine.SharedInternalsModule/0.0.0.0": {
         "runtime": {
           "UnityEngine.SharedInternalsModule.dll": {
@@ -298,14 +299,6 @@
       "UnityEngine/0.0.0.0": {
         "runtime": {
           "UnityEngine.dll": {
-            "assemblyVersion": "0.0.0.0",
-            "fileVersion": "0.0.0.0"
-          }
-        }
-      },
-      "UnityEngine.UnityWebRequestAssetBundleModule/0.0.0.0": {
-        "runtime": {
-          "UnityEngine.UnityWebRequestAssetBundleModule.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           }
@@ -346,6 +339,14 @@
       "UnityEngine.AIModule/0.0.0.0": {
         "runtime": {
           "UnityEngine.AIModule.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "UnityEngine.UnityWebRequestAssetBundleModule/0.0.0.0": {
+        "runtime": {
+          "UnityEngine.UnityWebRequestAssetBundleModule.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           }
@@ -618,12 +619,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "UnityEngine.AnimationModule/0.0.0.0": {
+    "UnityEngine.UI/1.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
     },
-    "UnityEngine.UI/1.0.0.0": {
+    "UnityEngine.AnimationModule/0.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
@@ -653,11 +654,6 @@
       "serviceable": false,
       "sha512": ""
     },
-    "UnityEngine.UnityWebRequestWWWModule/0.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
     "UnityEngine.TextRenderingModule/0.0.0.0": {
       "type": "reference",
       "serviceable": false,
@@ -669,6 +665,11 @@
       "sha512": ""
     },
     "Assembly-CSharp-firstpass/0.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "UnityEngine.UnityWebRequestWWWModule/0.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
@@ -709,11 +710,6 @@
       "sha512": ""
     },
     "udpkit.common/1.0.0.30342": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Klattersynth/1.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
@@ -763,17 +759,17 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Klattersynth/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
     "UnityEngine.SharedInternalsModule/0.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
     },
     "UnityEngine/0.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "UnityEngine.UnityWebRequestAssetBundleModule/0.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
@@ -799,6 +795,11 @@
       "sha512": ""
     },
     "UnityEngine.AIModule/0.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "UnityEngine.UnityWebRequestAssetBundleModule/0.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""

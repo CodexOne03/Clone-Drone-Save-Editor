@@ -87,3 +87,4 @@ F:\Repos\CloneDroneSaveEditor\CloneDroneSaveEditor\obj\Debug\net6.0-windows\refi
 F:\Repos\CloneDroneSaveEditor\CloneDroneSaveEditor\obj\Debug\net6.0-windows\CloneDroneSaveEditor.pdb
 F:\Repos\CloneDroneSaveEditor\CloneDroneSaveEditor\obj\Debug\net6.0-windows\CloneDroneSaveEditor.genruntimeconfig.cache
 F:\Repos\CloneDroneSaveEditor\CloneDroneSaveEditor\obj\Debug\net6.0-windows\ref\CloneDroneSaveEditor.dll
+F:\Repos\CloneDroneSaveEditor\CloneDroneSaveEditor\obj\Debug\net6.0-windows\CloneDroneSaveEditor.HighScoreDataEditor.resources

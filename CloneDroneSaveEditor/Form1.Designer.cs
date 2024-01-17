@@ -28,46 +28,73 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.pathLabel = new System.Windows.Forms.Label();
-            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.dataListBox = new System.Windows.Forms.ListBox();
+            this.filesListBox = new System.Windows.Forms.ListBox();
+            this.editButton = new System.Windows.Forms.Button();
+            this.deleteButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // pathLabel
+            // dataListBox
             // 
-            this.pathLabel.AutoSize = true;
-            this.pathLabel.Location = new System.Drawing.Point(12, 9);
-            this.pathLabel.Name = "pathLabel";
-            this.pathLabel.Size = new System.Drawing.Size(59, 15);
-            this.pathLabel.TabIndex = 0;
-            this.pathLabel.Text = "pathLabel";
+            this.dataListBox.FormattingEnabled = true;
+            this.dataListBox.HorizontalScrollbar = true;
+            this.dataListBox.ItemHeight = 15;
+            this.dataListBox.Location = new System.Drawing.Point(312, 12);
+            this.dataListBox.Name = "dataListBox";
+            this.dataListBox.ScrollAlwaysVisible = true;
+            this.dataListBox.Size = new System.Drawing.Size(936, 589);
+            this.dataListBox.TabIndex = 1;
             // 
-            // listBox1
+            // filesListBox
             // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.ItemHeight = 15;
-            this.listBox1.Location = new System.Drawing.Point(12, 27);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(776, 409);
-            this.listBox1.TabIndex = 1;
+            this.filesListBox.FormattingEnabled = true;
+            this.filesListBox.ItemHeight = 15;
+            this.filesListBox.Location = new System.Drawing.Point(12, 12);
+            this.filesListBox.Name = "filesListBox";
+            this.filesListBox.Size = new System.Drawing.Size(294, 559);
+            this.filesListBox.TabIndex = 2;
+            this.filesListBox.SelectedIndexChanged += new System.EventHandler(this.filesListBox_SelectedIndexChanged);
+            // 
+            // editButton
+            // 
+            this.editButton.Location = new System.Drawing.Point(12, 578);
+            this.editButton.Name = "editButton";
+            this.editButton.Size = new System.Drawing.Size(147, 23);
+            this.editButton.TabIndex = 3;
+            this.editButton.Text = "Edit";
+            this.editButton.UseVisualStyleBackColor = true;
+            this.editButton.Click += new System.EventHandler(this.editButton_Click);
+            // 
+            // deleteButton
+            // 
+            this.deleteButton.Location = new System.Drawing.Point(165, 578);
+            this.deleteButton.Name = "deleteButton";
+            this.deleteButton.Size = new System.Drawing.Size(141, 23);
+            this.deleteButton.TabIndex = 4;
+            this.deleteButton.Text = "Delete";
+            this.deleteButton.UseVisualStyleBackColor = true;
+            this.deleteButton.Click += new System.EventHandler(this.deleteButton_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.listBox1);
-            this.Controls.Add(this.pathLabel);
+            this.ClientSize = new System.Drawing.Size(1260, 610);
+            this.Controls.Add(this.deleteButton);
+            this.Controls.Add(this.editButton);
+            this.Controls.Add(this.filesListBox);
+            this.Controls.Add(this.dataListBox);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
-
-        private Label pathLabel;
-        private ListBox listBox1;
+        private ListBox dataListBox;
+        private ListBox filesListBox;
+        private Button editButton;
+        private Button deleteButton;
     }
 }
