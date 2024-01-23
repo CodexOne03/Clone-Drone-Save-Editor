@@ -47,6 +47,8 @@
             this.favouriteColorNumericUpDown = new System.Windows.Forms.NumericUpDown();
             this.itemLabel = new System.Windows.Forms.Label();
             this.itemNumericUpDown = new System.Windows.Forms.NumericUpDown();
+            this.discardButton = new System.Windows.Forms.Button();
+            this.saveButton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.levelReachedNumericUpDown)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ageNumericUpDown)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.favouriteColorNumericUpDown)).BeginInit();
@@ -204,11 +206,33 @@
             this.itemNumericUpDown.TabIndex = 17;
             this.itemNumericUpDown.ValueChanged += new System.EventHandler(this.itemNumericUpDown_ValueChanged);
             // 
+            // discardButton
+            // 
+            this.discardButton.Location = new System.Drawing.Point(164, 297);
+            this.discardButton.Name = "discardButton";
+            this.discardButton.Size = new System.Drawing.Size(75, 23);
+            this.discardButton.TabIndex = 18;
+            this.discardButton.Text = "Discard";
+            this.discardButton.UseVisualStyleBackColor = true;
+            this.discardButton.Click += new System.EventHandler(this.discardButton_Click);
+            // 
+            // saveButton
+            // 
+            this.saveButton.Location = new System.Drawing.Point(12, 297);
+            this.saveButton.Name = "saveButton";
+            this.saveButton.Size = new System.Drawing.Size(75, 23);
+            this.saveButton.TabIndex = 19;
+            this.saveButton.Text = "Save";
+            this.saveButton.UseVisualStyleBackColor = true;
+            this.saveButton.Click += new System.EventHandler(this.saveButton_Click);
+            // 
             // HighScoreDataEditor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(266, 315);
+            this.ClientSize = new System.Drawing.Size(266, 327);
+            this.Controls.Add(this.saveButton);
+            this.Controls.Add(this.discardButton);
             this.Controls.Add(this.itemNumericUpDown);
             this.Controls.Add(this.itemLabel);
             this.Controls.Add(this.favouriteColorNumericUpDown);
@@ -259,5 +283,7 @@
         private NumericUpDown favouriteColorNumericUpDown;
         private Label itemLabel;
         private NumericUpDown itemNumericUpDown;
+        private Button discardButton;
+        private Button saveButton;
     }
 }

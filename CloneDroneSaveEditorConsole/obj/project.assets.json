@@ -62,11 +62,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Repos\\CloneDroneSaveEditor\\CloneDroneSaveEditorConsole\\CloneDroneSaveEditorConsole.csproj",
+      "projectUniqueName": "F:\\Repos\\GitHub\\Clone-Drone-Save-Editor\\CloneDroneSaveEditorConsole\\CloneDroneSaveEditorConsole.csproj",
       "projectName": "CloneDroneSaveEditorConsole",
-      "projectPath": "F:\\Repos\\CloneDroneSaveEditor\\CloneDroneSaveEditorConsole\\CloneDroneSaveEditorConsole.csproj",
+      "projectPath": "F:\\Repos\\GitHub\\Clone-Drone-Save-Editor\\CloneDroneSaveEditorConsole\\CloneDroneSaveEditorConsole.csproj",
       "packagesPath": "C:\\Users\\codex\\.nuget\\packages\\",
-      "outputPath": "F:\\Repos\\CloneDroneSaveEditor\\CloneDroneSaveEditorConsole\\obj\\",
+      "outputPath": "F:\\Repos\\GitHub\\Clone-Drone-Save-Editor\\CloneDroneSaveEditorConsole\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
