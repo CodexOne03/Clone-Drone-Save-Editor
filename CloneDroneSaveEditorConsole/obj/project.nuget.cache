@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "XtzDzjA52S1YkdQnh2sgys6zYa6Cl04kJG9AzAYI0NLVLDu3jHeu73RSjpi3n9yAarkPIG38OGZW3Ohl9lWHkQ==",
+  "success": true,
+  "projectFilePath": "F:\\Repos\\GitHub\\Clone-Drone-Save-Editor\\CloneDroneSaveEditorConsole\\CloneDroneSaveEditorConsole.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\codex\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
